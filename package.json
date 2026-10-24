@@ -1,0 +1,26 @@
+{
+  "name": "ratelimit-gateway",
+  "version": "1.0.0",
+  "description": "Token-bucket and sliding-window rate limiting with per-key eviction",
+  "type": "module",
+  "main": "dist/limiter.js",
+  "types": "dist/limiter.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["rate-limit", "token-bucket", "sliding-window", "throttling"],
+  "author": "Konain Sultan Khan <kkdev9715@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkcyber2/ratelimit-gateway.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
